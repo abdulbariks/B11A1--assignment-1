@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +40,7 @@
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
+  width: 180px;
 }
 
 .hero-section {
@@ -111,7 +114,6 @@
   display: flex;
   margin-left: 30px;
   gap: 20px;
-  /* flex-wrap: wrap; */
 }
 .pillars-cart .cart {
   box-sizing: border-box;
@@ -170,7 +172,16 @@
 .vision-cart .cart {
   box-sizing: border-box;
   border-radius: 16px;
+}
+
+.bg-cart1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.bg-cart2 {
   background: rgb(198, 228, 214);
+}
+.bg-cart3 {
+  background: rgb(247, 235, 207);
 }
 
 .vision-cart .cart img {
@@ -449,4 +460,86 @@ th {
   width: 500px;
 }
 /* donate-section end  */
+
+/* subscribe-section start  */
+#subscribe-section {
+  width: 1280px;
+  margin-left: 160px;
+  margin-right: 160px;
+  text-align: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 20px;
+}
+#subscribe-section h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+#subscribe-section p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0px 20px 0px;
+}
+#subscribe-section div {
+  width: 650px;
+  display: flex;
+  margin: 0 auto;
+}
+#subscribe-section div .input {
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+  width: 502px;
+  margin-left: 20px;
+}
+
+#subscribe-section div .button {
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  width: 150px;
+  margin-right: 20px;
+}
+/* subscribe-section end  */
+
 /* main end  */
+
+/* footer start  */
+#footer-section {
+  width: 1600px;
+  margin: 0 auto;
+}
+.footer-section {
+  width: 1280px;
+  margin-left: 160px;
+  margin-right: 160px;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-section h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 30px;
+}
+.footer-section hr {
+  margin-bottom: 30px;
+}
+.footer-section .icons a {
+  padding: 10px;
+}
+/* footer end  */
