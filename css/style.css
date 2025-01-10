@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header-section start */
+#header-section {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-section .title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-left: 160px;
+}
+
+.nav-section .btn {
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-right: 160px;
+}
+
+.nav-section .btn button {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  padding: 15px;
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-section {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  width: 1280px;
+  height: 560px;
+  margin-left: 160px;
+  margin-right: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content {
+  width: 622px;
+  height: 326px;
+  margin-top: 117px;
+  margin-bottom: 117px;
+  margin-left: 60px;
+}
+.hero-content .subtitle {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+}
+.hero-content .title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+}
+.hero-content .btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  margin-top: 20px;
+}
+.hero-img img {
+  width: 474.03px;
+  height: 329.21px;
+  margin-top: 80px;
+  margin-right: 60px;
+}
+/* header-section end */
+
+/* main start*/
+/* pillars-section start  */
+#pillars-section {
+  width: 1280px;
+  height: 324px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+#pillars-section .pillars-content h2 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 30px;
+}
+.pillars-cart {
+  display: flex;
+  margin-left: 30px;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+}
+.pillars-cart .cart {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 302px;
+  height: 244px;
+}
+
+.pillars-cart .cart img {
+  padding: 10px;
+}
+.pillars-cart .cart h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+}
+.pillars-cart .cart p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+/* pillars-section end  */
+
+/* vision-section start  */
+#vision-section {
+  width: 1280px;
+  height: 765px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.vision-content h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 30px;
+}
+.vision-content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 30px;
+}
+.vision-cart {
+  display: flex;
+  margin-left: 30px;
+  gap: 20px;
+}
+.vision-cart .cart {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+.vision-cart .cart img {
+  padding: 10px;
+}
+.vision-cart .cart h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+}
+.vision-cart .cart p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+.vision-cart .cart .button1 {
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  padding: 10px;
+  margin: 10px;
+}
+.vision-cart .cart .button2 {
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  padding: 10px;
+  margin: 10px;
+}
+.vision-cart .cart .button3 {
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  padding: 10px;
+  margin: 10px;
+}
+
+#vision-section .vision-description {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  margin: 40px;
+}
+#vision-section .vision-description p {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#vision-section .vision-description h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+#vision-section .vision-description h5 {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* vision-section end  */
+/* main end  */
