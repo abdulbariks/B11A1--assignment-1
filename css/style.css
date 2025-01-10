@@ -88,6 +88,11 @@
 /* header-section end */
 
 /* main start*/
+#main-section {
+  width: 1600px;
+  margin: 0 auto;
+}
+
 /* pillars-section start  */
 #pillars-section {
   width: 1280px;
@@ -139,7 +144,7 @@
 /* vision-section start  */
 #vision-section {
   width: 1280px;
-  height: 765px;
+  /* height: 765px; */
   margin-left: 160px;
   margin-right: 160px;
 }
@@ -229,5 +234,219 @@
   font-size: 16px;
   font-weight: 400;
 }
+
 /* vision-section end  */
+
+/* opinion-section start  */
+#opinion-section {
+  width: 1280px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+#opinion-section .opinion-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.opinion-description .table {
+  margin: 30px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.opinion-description .table .row {
+  height: 72px;
+}
+.opinion-description .table .row th {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+  text-align: left;
+  padding-left: 10px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.opinion-description .table .row td {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.opinion-description .table td,
+th {
+  border: 1px solid black;
+}
+
+.opinion-description .table .row select {
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  padding: 15px;
+}
+
+.opinion-description .table .row .agree {
+  text-align: center;
+}
+/* opinion-section end  */
+
+/* recent-news-section start  */
+#recent-news-section {
+  width: 1280px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.recent-news-content1 {
+  margin: 30px;
+}
+.recent-news-content1 h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.recent-news-content1 p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.recent-news-content2 {
+  width: 1280px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  margin: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.recent-news-content2 .img img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.recent-news-content2-description h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.recent-news-content2-description img {
+  padding: 5px;
+}
+.recent-news-content2-description h5 {
+  padding: 5px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.recent-news-content2-description h5 span {
+  margin-left: 20px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.recent-news-content2-description p {
+  padding: 5px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.recent-news-content2-description button {
+  padding: 15px;
+  width: 150px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  margin-left: 5px;
+  margin-top: 30px;
+}
+/* recent-news-section end  */
+
+/* donate-section start  */
+#donate-section {
+  width: 1280px;
+  margin-left: 160px;
+  margin-right: 160px;
+  text-align: center;
+}
+.donate-section-content {
+  margin: 30px;
+}
+
+#donate-section h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+#donate-section p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+#donate-section .button .button1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  width: 150px;
+}
+#donate-section .button .button2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding: 30px;
+  width: 150px;
+}
+#donate-section .button .button3 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(219, 118, 118);
+  padding: 30px;
+  width: 150px;
+}
+#donate-section .button .button4 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(170, 136, 136);
+  padding: 30px;
+  width: 150px;
+}
+.amount-button button {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  margin: 30px;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  width: 500px;
+}
+/* donate-section end  */
 /* main end  */
